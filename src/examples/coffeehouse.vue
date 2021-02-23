@@ -10,14 +10,8 @@
   </div>
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
-
 <style scoped>
+
     /* Cookie */
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
@@ -26,7 +20,6 @@ export default {
 
 * {
   margin: 0;
-  text-align: center;
   --text-color: black;
   --bold-shadow: #8BA0E4;
   background-color: #fff;
@@ -34,8 +27,7 @@ export default {
 
 .container {
   outline: 1px solid var(--text-color);
-  padding: 10px;
-  margin: 4px;
+  padding: 20px;
 }
 
 .calligraphy {
