@@ -1,26 +1,23 @@
 <template>
-  <div>
+  <div class="home">
     <div class="title">
       <h1>Webography</h1>
-      <strong>CSS typography- Examples & Inspiration</strong>
-      <p><a
-          href="https://erlendweb.no"
-          rel="noopener"
-          target="_blank"
-        >Made by Erlend Brønseth</a></p>
+      <strong>CSS Typography - Examples & Inspiration</strong>
       <p><a
           href="https://github.com/bronsetn/webography"
           rel="noopener"
           target="_blank"
-        >Github</a></p>
+        >Github link</a></p>
       <p>
       </p>
     </div>
+
     <div class="grid-container">
       <Shadowy></Shadowy>
       <Coffeehouse></Coffeehouse>
       <Parrallax></Parrallax>
     </div>
+
   </div>
 </template>
 
@@ -39,32 +36,19 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
 .title {
-  margin: 0 auto;
-  padding: 50px 0px 50px 0px;
+  margin-bottom: 15px;
+}
+title, h1 {
+    font-size: 4em;
+    padding-bottom: 5px;
 }
 
-/* Grid */
-.grid-container {
-  display: grid;
-  grid-column-gap: 1em;
-  grid-template-columns: 1fr 1fr;
-  max-width: 80em;
-  margin: 0 auto;
+title, p {
+  padding: 2px;
 }
 
-.grid-container div {
-  margin-bottom: 10px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-}
-
-@media only screen and (max-width: 768px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
-}
 
 </style>

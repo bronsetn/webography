@@ -30,8 +30,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 
 * {
-  --text-color: black;
-  --bold-shadow: #8BA0E4;
+  --text-color: #281904;
+  --bold-shadow: #C78126;
+  --background-color: #FFF8F0;
 }
 
 .container {
@@ -40,8 +41,7 @@
   display: block;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
-  outline: 1px solid var(--text-color);
+  background-color: var(--background-color);
 }
 
 .calligraphy {
@@ -52,7 +52,7 @@
   /* Grid for lines on either side */
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  grid-template-rows: 25px 0;
+  grid-template-rows: 35px 0;
   grid-gap: 20px;
 }
 

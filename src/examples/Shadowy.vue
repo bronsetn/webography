@@ -35,7 +35,6 @@
   justify-content: center;
   align-items: center;
   background: var(--background-color);
-
 }
 
 .shadowy {
@@ -46,6 +45,7 @@
   color: var(--text-color);
   text-shadow: -15px 10px 15px var(--shadow-color);
   transition: all 0.3s ease-out;
+  padding: 20px;
 }
 
 .shadowy:hover {
