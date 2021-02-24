@@ -19,16 +19,17 @@
     background-color: var(--background-color);
     width: 100%;
     min-height: 100vh;
+    margin-bottom: 20px;
 }
 
 h1, h2, h3, strong {
-    margin-top: 1em;
-    padding-top: 1em;
+    padding-top: 4px;
     color: var(--primary-color);
 }
 
 p {
-    margin-top: 0.5em;
+    margin: 4px;
+    padding: 4px;
     color: #333;
 }
 

@@ -1,12 +1,23 @@
 <template>
-  <div class="container">
-    <p class="calligraphy">Welcome to</p>
-    <div class="bold">
-      <p>Hot</p>
-      <p>Coffee</p>
-      <p>Café</p>
+  <div>
+
+    <h2>Coffeehouse</h2>
+    <p><a
+        hreF="https://codepen.io/bronsetn/pen/oNYGdjO"
+        rel="noopoener"
+        target="_blank"
+      >https://codepen.io/bronsetn/pen/oNYGdjO</a></p>
+
+    <div class="container">
+      <p class="calligraphy">Welcome to</p>
+      <div class="bold">
+        <p>Hot</p>
+        <p>Coffee</p>
+        <p>Café</p>
+      </div>
+      <p class="calligraphy">Your local coffehouse</p>
     </div>
-    <p class="calligraphy">Your local coffehouse</p>
+
   </div>
 </template>
 
@@ -19,19 +30,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 
 * {
-  margin: 0;
   --text-color: black;
   --bold-shadow: #8BA0E4;
-  background-color: #fff;
 }
 
 .container {
+  height: 100%;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
   outline: 1px solid var(--text-color);
-  padding: 20px;
 }
 
 .calligraphy {
-  margin: 10px;
   font-family: 'Cookie', cursive;
   font-size: 3em;
   color: var(--text-color);
@@ -75,4 +88,5 @@
 .bold p:nth-child(2) {
   font-size: 5em;
 }
+
 </style>
