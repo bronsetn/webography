@@ -5,7 +5,12 @@
         hreF="https://codepen.io/bronsetn/pen/VwmMXyV"
         rel="noopoener"
         target="_blank"
-      >https://codepen.io/bronsetn/pen/VwmMXyV</a></p>
+      >https://codepen.io/bronsetn/pen/VwmMXyV
+        <fa-icon
+          :icon="['fab', 'codepen']"
+          size="1x"
+        />
+      </a></p>
 
     <div class="container">
 

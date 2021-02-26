@@ -6,7 +6,12 @@
         hreF="https://codepen.io/bronsetn/pen/oNYGdjO"
         rel="noopoener"
         target="_blank"
-      >https://codepen.io/bronsetn/pen/oNYGdjO</a></p>
+      >https://codepen.io/bronsetn/pen/oNYGdjO
+        <fa-icon
+          :icon="['fab', 'codepen']"
+          size="1x"
+        />
+      </a></p>
 
     <div class="container">
       <p class="calligraphy">Welcome to</p>
