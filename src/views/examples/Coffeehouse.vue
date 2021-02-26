@@ -15,9 +15,11 @@
 
     <div class="container">
       <p class="calligraphy">Welcome to</p>
-      <p class="bold">Hot</p>
-      <p class="bold xl">Coffee</p>
-      <p class="bold">Café</p>
+      <div class="bold">
+        <p>Hot</p>
+        <p>Coffee</p>
+        <p>Café</p>
+      </div>
       <p class="calligraphy">Your local coffehouse</p>
     </div>
 
@@ -52,6 +54,7 @@ export default {
   justify-content: center;
   align-items: center;
   background-color: var(--background-color);
+  padding-bottom: 25px;
 }
 
 .calligraphy {
@@ -63,7 +66,8 @@ export default {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   grid-template-rows: 35px 0;
-  grid-gap: 10px;
+  grid-gap: 20px;
+  min-width: 500px;
 }
 
 .calligraphy::before, .calligraphy::after {
@@ -72,7 +76,7 @@ export default {
   border-bottom: 2px solid var(--text-color);
 }
 
-.bold {
+.bold p {
   font-family: 'Ultra', serif;
   font-weight: bold;
   letter-spacing: 0.2em;
@@ -93,7 +97,20 @@ export default {
         1px 10px var(--bold-shadow);
 }
 
-.xl {
+.bold p:nth-child(2) {
   font-size: 6em;
+}
+
+@media only screen and (max-width: 768px) {
+  .calligraphy {
+  font-size: 2em;
+  grid-template-rows: 25px 0;
+  }
+  .bold p {
+    font-size: 3em;
+  }
+  .bold p:nth-child(2) {
+  font-size: 4em;
+  }
 }
 </style>

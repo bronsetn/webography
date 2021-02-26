@@ -64,4 +64,10 @@ export default {
 
 }
 
+@media only screen and (max-width: 768px) {
+  .shadowy {
+      font-size: 3em;
+  }
+}
+
 </style>
