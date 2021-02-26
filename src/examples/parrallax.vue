@@ -25,6 +25,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'Parrallax',
+}
+</script>
+
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 

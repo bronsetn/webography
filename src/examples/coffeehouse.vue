@@ -24,6 +24,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'Coffeehouse',
+}
+</script>
+
 <style scoped>
 
     /* Cookie */

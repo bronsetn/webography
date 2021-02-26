@@ -21,9 +21,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'Shadowy',
+}
+</script>
+
 <style scoped>
 /* Inspired by: https://codepen.io/agathaco/pen/KqVWEw?editors=1100 */
-
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 

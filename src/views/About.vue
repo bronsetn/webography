@@ -40,7 +40,7 @@
 <script>
 
 export default {
-  name: 'Home',
+  name: 'About',
 
 }
 </script>
