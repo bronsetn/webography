@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import Shadowy from '../examples/Shadowy'
-import Coffeehouse from '../examples/Coffeehouse'
-import Parrallax from '../examples/Parrallax'
+import Shadowy from './examples/Shadowy'
+import Coffeehouse from './examples/Coffeehouse'
+import Parrallax from './examples/Parrallax'
 
 export default {
   name: 'Home',
