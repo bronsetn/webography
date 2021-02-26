@@ -5,6 +5,7 @@ import router from './router'
 // custom css file
 import './main.css';
 
+
 Vue.config.productionTip = false
 
 new Vue({

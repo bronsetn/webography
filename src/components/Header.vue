@@ -8,7 +8,17 @@
         <router-link to="/about">About</router-link>
       </li>
     </ul>
-
+    <div class="title">
+      <h1>Webography</h1>
+      <p><strong>CSS Typography - Examples & Inspiration</strong></p>
+      <p>Project available on <a
+          href="https://github.com/bronsetn/webography"
+          rel="noopener"
+          target="_blank"
+        >Github</a></p>
+      <p>
+      </p>
+    </div>
   </div>
 </template>
 
@@ -27,7 +37,6 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  margin-bottom: 15px;
 }
 
 ul {
@@ -41,6 +50,20 @@ ul {
 li {
   display: inline;
   padding: 10px;
+}
+
+.title {
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+title, h1 {
+    font-size: 2.5em;
+    padding-bottom: 5px;
+}
+
+title, p {
+  padding: 5px;
 }
 
 </style>

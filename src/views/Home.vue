@@ -1,17 +1,5 @@
 <template>
   <div class="home">
-    <div class="title">
-      <h1>Webography</h1>
-      <strong>CSS Typography - Examples & Inspiration</strong>
-      <p><a
-          href="https://github.com/bronsetn/webography"
-          rel="noopener"
-          target="_blank"
-        >Github link</a></p>
-      <p>
-      </p>
-    </div>
-
     <div class="grid-container">
       <Shadowy></Shadowy>
       <Coffeehouse></Coffeehouse>
@@ -35,20 +23,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-.title {
-  margin-bottom: 15px;
-}
-title, h1 {
-    font-size: 4em;
-    padding-bottom: 5px;
-}
-
-title, p {
-  padding: 2px;
-}
-
-
-</style>
