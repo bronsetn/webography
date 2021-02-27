@@ -11,14 +11,12 @@
     <div class="title">
       <h1>Webography</h1>
       <p><strong>CSS Typography - Examples & Inspiration</strong></p>
-      <p>Project available on <a
+      <p>Project made with VueJS, available on <a
           href="https://github.com/bronsetn/webography"
           rel="noopener"
           target="_blank"
         >Github
         </a></p>
-      <p>
-      </p>
     </div>
   </div>
 </template>

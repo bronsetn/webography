@@ -40,6 +40,7 @@ export default {
 
 .container {
   height: 100%;
+  min-height: 300px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -54,7 +55,7 @@ export default {
   font-size: 5em;
   color: var(--text-color);
   text-shadow: -15px 10px 15px var(--shadow-color);
-  transition: all 0.3s ease-out;
+  transition: all 0.5s ease-out;
   padding: 20px;
 }
 

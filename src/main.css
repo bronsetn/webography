@@ -37,6 +37,10 @@ a {
     transition: 0.25s;
 }
 
+p, a {
+    margin-bottom: 8px;
+}
+
 a:hover {
     border-color: var(--accent-color);
 }

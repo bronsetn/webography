@@ -15,8 +15,7 @@
             rel="noopoener"
             target="_blank"
           >
-            https://freefrontend.com/css-text-effects</a>
-           *Collection of free HTML and CSS text effect code examples.
+            https://freefrontend.com/css-text-effects</a> <span>*Collection of free HTML and CSS text effect code examples.</span>
         </li>
 
         <li><a
@@ -24,14 +23,21 @@
             rel="noopoener"
             target="_blank"
           >
-            https://type-scale.com</a> *Tool for testing out text sizes with different google fonts</li>
+            https://type-scale.com</a> <span>*Tool for testing out text sizes with different google fonts</span></li>
 
         <li><a
             href="https://colorable.jxnblk.com"
             rel="noopoener"
             target="_blank"
           >
-            https://colorable.jxnblk.com</a> *For testing text color contrast</li>
+            https://colorable.jxnblk.com</a> <span>*For testing text color contrast</span></li>
+
+        <li><a
+            href="https://fonts.google.com"
+            rel="noopoener"
+            target="_blank"
+          >
+            https://fonts.google.com</a> <span>*Google fonts</span></li>
       </ol>
     </div>
   </div>
@@ -68,8 +74,15 @@ ol {
   list-style-type: upper-roman;
   list-style-position: inside;
 }
-ol, li {
-  padding: 2px;
+
+ol li {
+  padding: 4px;
+}
+
+ol li span {
+  padding-left: 4px;
+  font-size: 0.9em;
+  font-weight: 500;
 }
 
 </style>
