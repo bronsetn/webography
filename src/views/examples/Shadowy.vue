@@ -21,12 +21,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Shadowy',
-}
-</script>
-
 <style scoped>
 /* Inspired by: https://codepen.io/agathaco/pen/KqVWEw?editors=1100 */
 
@@ -40,7 +34,7 @@ export default {
 
 .container {
   height: 100%;
-  min-height: 300px;
+  min-height: 400px;
   width: 100%;
   display: flex;
   justify-content: center;

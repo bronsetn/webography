@@ -26,12 +26,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Coffeehouse',
-}
-</script>
-
 <style scoped>
 
     /* Cookie */
@@ -49,6 +43,7 @@ export default {
 .container {
   height: 100%;
   width: 100%;
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;

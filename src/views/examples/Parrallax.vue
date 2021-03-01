@@ -25,12 +25,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Parrallax',
-}
-</script>
-
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
@@ -44,6 +38,7 @@ export default {
 .container {
   height: 100%;
   width: 100%;
+  min-height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -12,7 +12,7 @@
         />
       </a></p>
 
-    <div id="container">
+    <div class="container">
       <p>Click text</p>
       <div
         @click="showText = !showText"
@@ -69,10 +69,10 @@ p {
     color: var(--text-color);
 }
 
-#container {
+.container {
     height: 100%;
-    min-height: 300px;
     width: 100%;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
