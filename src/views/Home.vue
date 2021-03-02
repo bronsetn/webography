@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <div class="grid-container">
+      <Trail></Trail>
       <Spotify></Spotify>
       <Expandable></Expandable>
       <Shadowy></Shadowy>
@@ -13,6 +14,7 @@
 </template>
 
 <script>
+import Trail from './examples/Trail'
 import Spotify from './examples/Spotify'
 import Expandable from './examples/Expandable'
 import Shadowy from './examples/Shadowy'
@@ -23,6 +25,7 @@ import Repeating from './examples/Repeating'
 export default {
   name: 'Home',
   components: {
+    Trail,
     Spotify,
     Expandable,
     Parrallax,

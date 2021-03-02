@@ -56,7 +56,6 @@
 .shadowy:hover {
     text-shadow: -5px 5px 5px var(--background-color);
     color: var(--shadow-color);
-
 }
 
 @media only screen and (max-width: 768px) {
