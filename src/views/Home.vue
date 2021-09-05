@@ -2,12 +2,13 @@
   <div class="home">
     <div class="grid-container">
       <Trail></Trail>
-      <Spotify></Spotify>
       <Expandable></Expandable>
-      <Shadowy></Shadowy>
-      <Coffeehouse></Coffeehouse>
+      <Imagebackground></Imagebackground>
       <Parrallax></Parrallax>
+      <Coffeehouse></Coffeehouse>
+      <Shadowy></Shadowy>
       <Repeating></Repeating>
+      <Spotify></Spotify>
     </div>
 
   </div>
@@ -21,6 +22,7 @@ import Shadowy from './examples/Shadowy'
 import Coffeehouse from './examples/Coffeehouse'
 import Parrallax from './examples/Parrallax'
 import Repeating from './examples/Repeating'
+import Imagebackground from './examples/Image-background'
 
 export default {
   name: 'Home',
@@ -32,6 +34,7 @@ export default {
     Coffeehouse,
     Shadowy,
     Repeating,
+    Imagebackground,
   }
 }
 </script>

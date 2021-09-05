@@ -19,7 +19,6 @@
         <br>
         Effect
       </p>
-
     </div>
 
   </div>

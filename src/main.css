@@ -3,7 +3,7 @@
     --primary-color: #2D3142;
     --secondary-color: #4F5D75;
     --tertiary-color: #BFC0C0;
-    --background-color: #FFFFFF;
+    --background-color: #f3f3f3;
     --accent-color: #EF8354;
     --accent-color-dark: #EA5C1F;
     /*reset*/
@@ -21,7 +21,15 @@
     background-color: var(--background-color);
 }
 
-h1, h2, h3, strong {
+::selection {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+h1,
+h2,
+h3,
+strong {
     padding-top: 4px;
     color: var(--primary-color);
 }
@@ -37,7 +45,8 @@ a {
     transition: 0.25s;
 }
 
-p, a {
+p,
+a {
     margin-bottom: 8px;
 }
 

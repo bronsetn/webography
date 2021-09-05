@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <h2>Image text</h2>
+    <h2>Card overlay text</h2>
     <p><a
         hreF="https://codepen.io/bronsetn/pen/LYbdKRV"
         rel="noopoener"

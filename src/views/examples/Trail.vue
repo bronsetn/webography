@@ -14,6 +14,7 @@
       </a></p>
 
     <div class="container">
+      <p>Hover text</p>
       <p
         class="trail"
         content="TEXT"
@@ -32,6 +33,10 @@
     --transparent: rgba(0, 0, 0, 0);
 }
 
+p {
+    color: var(--text);
+}
+
 .container {
     height: 100%;
     width: 100%;
@@ -47,7 +52,7 @@
     font-family: 'Archivo Black', sans-serif;
     font-size: 6em;
     font-weight: 700;
-	letter-spacing: 0.25em;
+	  letter-spacing: 0.25em;
     position: relative;
     z-index: 1;
     color: var(--text);

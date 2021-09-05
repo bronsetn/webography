@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <h2>Text as background</h2>
+    <h2>Repeating text as background</h2>
     <p><a
         hreF="https://codepen.io/bronsetn/pen/qBqYdVL"
         rel="noopoener"

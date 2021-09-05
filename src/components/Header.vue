@@ -36,6 +36,7 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-items: center;
+  background-color: var(--background-color);
 }
 
 ul {
@@ -56,13 +57,14 @@ li {
   margin-top: 25px;
 }
 
-title, h1 {
-    font-size: 2.5em;
-    padding-bottom: 5px;
+title,
+h1 {
+  font-size: 2.5em;
+  padding-bottom: 5px;
 }
 
-title, p {
+title,
+p {
   padding: 5px;
 }
-
 </style>
