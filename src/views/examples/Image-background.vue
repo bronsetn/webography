@@ -48,13 +48,15 @@
   -webkit-background-clip: text;
   background-clip: text;
   background-image: url("https://picsum.photos/id/229/600/400");
-    color: rgb(84 105 117);
-  position: relative;
+  color: rgb(84 105 117);
   mix-blend-mode: hard-light;
+  position: relative;
+  isolation: isolate;
 
 }
 .bg-text::after {
     content: '';
+    z-index: -1;
     width: 100%;
     height: 100%;
     position: absolute;
